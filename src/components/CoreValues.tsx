@@ -124,9 +124,9 @@ export function CoreValues() {
               viewport={{ once: true }}
               className="lg:col-span-3 grid grid-cols-2 gap-4 h-[500px]"
             >
-              <img src="installation.jpg" alt="/Installation" className="w-full h-full object-cover rounded-3xl shadow-md" />
+              <img src="/modullab.jpg" alt="/Installation" className="w-full h-full object-cover rounded-3xl shadow-md" />
               <div className="grid grid-rows-2 gap-4">
-                 <img src="/modullab.jpg" alt="Engineer checking blueprints" className="w-full h-full object-cover rounded-3xl shadow-md" />
+                 <img src="/installation.jpg" alt="Engineer checking blueprints" className="w-full h-full object-cover rounded-3xl shadow-md" />
                  <img src="/13.png" alt="Mobile lab" className="w-full h-full object-cover rounded-3xl shadow-md" />
               </div>
             </motion.div>
