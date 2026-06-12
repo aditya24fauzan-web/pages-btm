@@ -106,7 +106,7 @@ export function Services() {
               className="grid grid-cols-2 gap-4"
             >
               <img src="/bed.jpg" alt="Hospital doors" className="w-full h-[400px] object-cover rounded-3xl shadow-2xl" />
-              <img src="/bed2.jpg" alt="Cleanroom facility" className="w-full h-[300px] object-cover rounded-3xl shadow-2xl self-end" />
+              <img src="/bed2.jpeg" alt="Cleanroom facility" className="w-full h-[300px] object-cover rounded-3xl shadow-2xl self-end" />
             </motion.div>
 
             <motion.div 
