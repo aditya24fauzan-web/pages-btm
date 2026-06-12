@@ -124,10 +124,10 @@ export function CoreValues() {
               viewport={{ once: true }}
               className="lg:col-span-3 grid grid-cols-2 gap-4 h-[500px]"
             >
-              <img src="https://images.unsplash.com/photo-1504940562638-34860d5b5dba?auto=format&fit=crop&q=80" alt="Installation" className="w-full h-full object-cover rounded-3xl shadow-md" />
+              <img src="installation.jpg" alt="/Installation" className="w-full h-full object-cover rounded-3xl shadow-md" />
               <div className="grid grid-rows-2 gap-4">
-                 <img src="https://images.unsplash.com/photo-1541888081691-382b6038fd1d?auto=format&fit=crop&q=80" alt="Engineer checking blueprints" className="w-full h-full object-cover rounded-3xl shadow-md" />
-                 <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80" alt="Mobile lab" className="w-full h-full object-cover rounded-3xl shadow-md" />
+                 <img src="/modullab.jpg" alt="Engineer checking blueprints" className="w-full h-full object-cover rounded-3xl shadow-md" />
+                 <img src="/13.png" alt="Mobile lab" className="w-full h-full object-cover rounded-3xl shadow-md" />
               </div>
             </motion.div>
           </div>
