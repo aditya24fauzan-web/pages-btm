@@ -127,7 +127,7 @@ export function Introduction() {
               <div className="absolute -inset-4 bg-brand-gray rounded-[2.5rem] -z-10 transform rotate-3" />
               <div className="grid grid-cols-2 gap-4 h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80" 
+                  src="/12.png" 
                   alt="Engineering HVAC Worker" 
                   className="w-full h-full object-cover rounded-3xl shadow-lg col-span-2 md:col-span-1"
                 />
