@@ -45,7 +45,7 @@ export function Introduction() {
             className="relative h-[500px] lg:h-[650px] w-full rounded-3xl overflow-hidden shadow-2xl"
           >
             <img 
-              src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80" 
+              src="/hero.jpg" 
               alt="Medical Surgery Room" 
               className="w-full h-full object-cover"
             />
