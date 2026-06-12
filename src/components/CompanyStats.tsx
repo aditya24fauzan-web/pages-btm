@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { IndonesiaMap } from "indonesia-map";
 import { Logo } from "./Shared";
 import { Mail, Phone, MapPin, Instagram, Facebook } from "lucide-react";
 
@@ -43,18 +44,11 @@ export function CompanyStats() {
                 <MapPin className="text-brand-blue" /> Cakupan Seluruh Indonesia
               </h3>
               
-              {/* Abstract decorative map area */}
-              <div className="w-full flex justify-center py-10 opacity-80">
-                 <svg viewBox="0 0 500 200" className="w-full h-auto drop-shadow-md" fill="none" stroke="currentColor">
-                   <path d="M50,75 Q75,50 100,100 T150,125" stroke="#050a1f" strokeWidth="8" strokeLinecap="round" />
-                   <path d="M140,125 Q160,75 200,100 T225,150" stroke="#2244ff" strokeWidth="8" strokeLinecap="round" />
-                   <path d="M210,140 Q250,100 275,110 T300,90" stroke="#40a0ff" strokeWidth="10" strokeLinecap="round" />
-                   <path d="M300,75 Q325,100 350,50 T400,75 T450,100" stroke="#eab308" strokeWidth="10" strokeLinecap="round" />
-                   
-                   <circle cx="75" cy="110" r="4" fill="#050a1f" className="animate-pulse" />
-                   <circle cx="125" cy="150" r="5" fill="#2244ff" className="animate-ping" />
-                   <circle cx="250" cy="160" r="4" fill="#40a0ff" className="animate-pulse" />
-                 </svg>
+              {/* Indonesia Map component */}
+              <div className="w-full flex justify-center py-6">
+                 <IndonesiaMap 
+                   className="w-full h-auto drop-shadow-md pb-4 [&_path]:fill-brand-blue [&_path]:opacity-20 [&_path:hover]:opacity-100 [&_path]:transition-opacity" 
+                 />
               </div>
             </motion.div>
           </div>
