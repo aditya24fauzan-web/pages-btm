@@ -127,7 +127,7 @@ export function CoreValues() {
               <img src="/modullab.jpg" alt="/Installation" className="w-full h-full object-cover rounded-3xl shadow-md" />
               <div className="grid grid-rows-2 gap-4">
                  <img src="/installation.jpg" alt="Engineer checking blueprints" className="w-full h-full object-cover rounded-3xl shadow-md" />
-                 <img src="/13.png" alt="Mobile lab" className="w-full h-full object-cover rounded-3xl shadow-md" />
+                 <img src="/13.jpg" alt="Mobile lab" className="w-full h-full object-cover rounded-3xl shadow-md" />
               </div>
             </motion.div>
           </div>
