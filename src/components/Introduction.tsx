@@ -58,8 +58,8 @@ export function Introduction() {
               transition={{ delay: 0.8 }}
               className="absolute bottom-8 left-8 bg-white/95 backdrop-blur-md p-6 rounded-2xl shadow-xl max-w-xs"
             >
-              <h3 className="font-bold text-brand-navy text-4xl mb-1">2026</h3>
-              <p className="text-sm font-semibold text-gray-600 uppercase tracking-widest">Company Profile</p>
+              <h3 className="font-bold text-brand-navy text-4xl mb-1">BARA</h3>
+              <p className="text-sm font-semibold text-gray-600 uppercase tracking-widest">TEKNIK MANDIRI</p>
             </motion.div>
           </motion.div>
         </div>
