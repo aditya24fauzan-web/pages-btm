@@ -13,9 +13,7 @@ export function Logo({ className = "", light = false }: { className?: string; li
       <img 
         src="/logo.png" 
         alt="Bara Teknik Mandiri" 
-        className={`h-12 md:h-16 lg:h-20 object-contain ${
-    light ? "brightness-0 invert" : ""
-  }`}
+        className={`h-10 object-contain ${light ? "brightness-0 invert" : ""}`}
         onError={(e) => {
           // Fallback ke SVG bawaan jika gambar logo.png belum ada
           e.currentTarget.style.display = 'none';
