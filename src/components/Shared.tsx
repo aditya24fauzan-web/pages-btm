@@ -49,6 +49,7 @@ export function Navbar() {
   }, []);
 
   const links = [
+    { name: "Home", href: "https://www.ptbarateknikmandiri.com" }, // <-- Baris ini yang ditambahkan
     { name: "Tentang Kami", href: "#about" },
     { name: "Visi Misi", href: "#values" },
     { name: "Layanan", href: "#services" },
